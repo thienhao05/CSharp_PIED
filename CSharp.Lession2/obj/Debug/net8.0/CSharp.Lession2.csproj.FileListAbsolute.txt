@@ -1,0 +1,14 @@
+E:\CSharpLearning\CSharp_project_main\CSharp\CSharp.Lession2\bin\Debug\net8.0\CSharp.Lession2.exe
+E:\CSharpLearning\CSharp_project_main\CSharp\CSharp.Lession2\bin\Debug\net8.0\CSharp.Lession2.deps.json
+E:\CSharpLearning\CSharp_project_main\CSharp\CSharp.Lession2\bin\Debug\net8.0\CSharp.Lession2.runtimeconfig.json
+E:\CSharpLearning\CSharp_project_main\CSharp\CSharp.Lession2\bin\Debug\net8.0\CSharp.Lession2.dll
+E:\CSharpLearning\CSharp_project_main\CSharp\CSharp.Lession2\bin\Debug\net8.0\CSharp.Lession2.pdb
+E:\CSharpLearning\CSharp_project_main\CSharp\CSharp.Lession2\obj\Debug\net8.0\CSharp.Lession2.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharpLearning\CSharp_project_main\CSharp\CSharp.Lession2\obj\Debug\net8.0\CSharp.Lession2.AssemblyInfoInputs.cache
+E:\CSharpLearning\CSharp_project_main\CSharp\CSharp.Lession2\obj\Debug\net8.0\CSharp.Lession2.AssemblyInfo.cs
+E:\CSharpLearning\CSharp_project_main\CSharp\CSharp.Lession2\obj\Debug\net8.0\CSharp.Lession2.csproj.CoreCompileInputs.cache
+E:\CSharpLearning\CSharp_project_main\CSharp\CSharp.Lession2\obj\Debug\net8.0\CSharp.Lession2.dll
+E:\CSharpLearning\CSharp_project_main\CSharp\CSharp.Lession2\obj\Debug\net8.0\refint\CSharp.Lession2.dll
+E:\CSharpLearning\CSharp_project_main\CSharp\CSharp.Lession2\obj\Debug\net8.0\CSharp.Lession2.pdb
+E:\CSharpLearning\CSharp_project_main\CSharp\CSharp.Lession2\obj\Debug\net8.0\CSharp.Lession2.genruntimeconfig.cache
+E:\CSharpLearning\CSharp_project_main\CSharp\CSharp.Lession2\obj\Debug\net8.0\ref\CSharp.Lession2.dll
