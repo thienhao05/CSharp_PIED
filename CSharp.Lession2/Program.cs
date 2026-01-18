@@ -83,7 +83,27 @@ class Program
             get => _money + "VND";
         }
     }
+    
+    //demo class with static
+    class Person
+    {
+        //static là 1 vùng nhớ riêng, không chơi chung với mấy thằng còn lại
+        public static int Age { get; set; } //nằm trong vùng nhớ riêng ko chơi heap và stack
+        public string Name { get; set; }
+        public string Gender { get; set; }
 
+        public Person(int age, string name, string gender)
+        {
+            Age = age;
+            Name = name;
+            Gender = gender;
+        }
+
+        public string GetAge()
+        {
+            return Age.ToString();
+        }
+    }
 
     static void Main(string[] args)
     {
@@ -101,7 +121,22 @@ class Program
          * public string Gender {get; set; }
          */
 
-        s1.BoyFriendName = "Diep";
-        Console.WriteLine("BoyFriendName: " + s1.BoyFriendName);
+        // s1.BoyFriendName = "Diep";
+        // Console.WriteLine("BoyFriendName: " + s1.BoyFriendName);
+        
+        //Demo static
+        Person p1 = new Person(10, "Tan", "Male");
+        Person p2 = new Person(20, "Binh", "Male");
+        // p1.Age = 20;
+        Console.WriteLine("p1: " + p1.GetAge());//20
+        Console.WriteLine("p2: " + p2.GetAge());//20
+        //tại sao lại là 20 ? Thì mình cần phải nhớ static nó ko chơi stack và heap
+        //mà nó nằm ở 1 vùng nhớ riêng và cái biến này, cái static này có giá trị khi mà class 
+        //này được load lên th2i khi mà mình new mới nó load lại đây bằng 20 vô thì tại vì biến này 
+        // là biến dùng chung thì Age lúc đầu nó = 10, xong rồi nó load lên lại thì biến của mình bằng 20
+        // lúc này p1, p2 mình lấy ra chính là 20
+        
+        //Vậy thì tại sao mà p1.Age = 20 lại không có được vì nó được nằm ở vùng nhớ khác
+        // giá trị của age đc khởi tạo, 3 thằng này ở 3 vùng nhớ khác nhau nên có cái gì để chấm đâu
     }
 }
