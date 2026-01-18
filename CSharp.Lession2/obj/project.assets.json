@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CSharpLearning\\CSharp_project_main\\CSharp\\CSharp.Lession2\\CSharp.Lession2.csproj",
+      "projectUniqueName": "E:\\CSharpLearning\\CSharp_PIED\\CSharp.Lession2\\CSharp.Lession2.csproj",
       "projectName": "CSharp.Lession2",
-      "projectPath": "E:\\CSharpLearning\\CSharp_project_main\\CSharp\\CSharp.Lession2\\CSharp.Lession2.csproj",
+      "projectPath": "E:\\CSharpLearning\\CSharp_PIED\\CSharp.Lession2\\CSharp.Lession2.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "E:\\CSharpLearning\\CSharp_project_main\\CSharp\\CSharp.Lession2\\obj\\",
+      "outputPath": "E:\\CSharpLearning\\CSharp_PIED\\CSharp.Lession2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CSharpLearning\\CSharp_project_main\\CSharp\\CSharp.Lession1\\CSharp.Lession1.csproj": {}
+    "E:\\CSharpLearning\\CSharp_PIED\\CSharp.Lession1\\CSharp.Lession1.csproj": {}
   },
   "projects": {
-    "E:\\CSharpLearning\\CSharp_project_main\\CSharp\\CSharp.Lession1\\CSharp.Lession1.csproj": {
+    "E:\\CSharpLearning\\CSharp_PIED\\CSharp.Lession1\\CSharp.Lession1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CSharpLearning\\CSharp_project_main\\CSharp\\CSharp.Lession1\\CSharp.Lession1.csproj",
+        "projectUniqueName": "E:\\CSharpLearning\\CSharp_PIED\\CSharp.Lession1\\CSharp.Lession1.csproj",
         "projectName": "CSharp.Lession1",
-        "projectPath": "E:\\CSharpLearning\\CSharp_project_main\\CSharp\\CSharp.Lession1\\CSharp.Lession1.csproj",
+        "projectPath": "E:\\CSharpLearning\\CSharp_PIED\\CSharp.Lession1\\CSharp.Lession1.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "E:\\CSharpLearning\\CSharp_project_main\\CSharp\\CSharp.Lession1\\obj\\",
+        "outputPath": "E:\\CSharpLearning\\CSharp_PIED\\CSharp.Lession1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
