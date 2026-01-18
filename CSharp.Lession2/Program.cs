@@ -105,6 +105,27 @@ class Program
         }
     }
 
+    
+    public abstract class Shape
+    {
+        public string Name;
+        public abstract double Area();
+    }
+    // class: Parent Class, Interface1, Interface2
+    // 1 class trong C# chỉ có thể kế thừa 1 cha
+    // tại sao 1 class chỉ có thể kế thừa 1 cha trong C# ?
+    public class Rectangle : Shape
+    {
+        //keyword để mình giải thích cái này chính là Diamond Problem
+        /*
+         * Vấn đề kim cương (Diamond Problem) trong OOP là khi một lớp kế thừa từ hai lớp cha, mà hai lớp cha này lại cùng kế thừa từ một lớp gốc, khiến lớp con bị mơ hồ khi truy cập thuộc tính/phương thức của lớp gốc vì không biết dùng đường kế thừa nào.
+         */
+        public override double Area()
+        {
+            throw new NotImplementedException();
+        }
+    }
+    
     static void Main(string[] args)
     {
         //Demo getter / setter
