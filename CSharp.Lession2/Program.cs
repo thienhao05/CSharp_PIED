@@ -2,45 +2,44 @@
 
 class Program
 {
-    //tại sao struct là Value Type ?
-    //struct khác gì với Reference Type ?
-    struct Point
-    {
-        //truyền giá trị vô thì dùng struct
-        public int x;
-        public int y;
-        //value type chỉ liên quan tới giá trị thôi
-    }
+    
 
     class Student
     {
-        public int Age{get;set;}
-        //method
-        //kế thừa
+       // Instance Variables - Biến dùng để lưu trữ INFO của 1 Object
+       // Age, Name, Gender
+       
+       // Trong C# thuật ngữ  Instance Variables 
+            // - Được gọi là Backed-Field, Data Field
+            // - Biến dùng để lưu INFO của 1 Object
+        // Nếu mà mình ko ghi public thì mặc định sẽ là private
+        // Access Modifier: public - private - protected - default
+        // string _id = "36";
+        // int b = 36;
+        // double c = 3.6;
+        
+        // Nếu mà mình ko bỏ giá trị khởi tạo, thì sẽ được mang các giá trị mặc định
+        // int : 0
+        // bool : false
+        // Datetime: 01/01/0001 00:00:00
+        // string : null
+        // class : null
+        // array : null
+        // struct : 0
+        
+        // Lưu ý: cho mình dễ nhớ
+        // Value Type: 0
+        // Reference Type: null (ko có vùng nhớ)
+        
+        // >_< trả lời string: "", struct: null là sai !!!
+        public string name;
+        private int age;
     }
     
 
     static void Main(string[] args)
     {
-        //Struct và class khác nhau ở đâu
-        //class
-        Student s1 = new Student(){Age = 20};
-        Student s2 = s1; //3 vùng nhớ đc tạo ra thì s2 cũng sẽ tham chiếu đến s1
-        // đến vùng nhớ HEAP lưu địa chỉ của s1
-        s2.Age = 30;
-        //tại vì 2 thằng này tham chiếu tới nhau
-        Console.WriteLine("Demo class - Age s1 = " + s1.Age);//30
-        Console.WriteLine("Demo class - Age s2 = " + s2.Age);//30
-        
-        //struct
-        Point p1 = new Point{x = 1, y = 2};
-        Point p2 = p1;
-        p2.x = 20;
-        Console.WriteLine("Demo struct - Point p1 = " + p1.x);//1
-        Console.WriteLine("Demo struct - Point p2 = " + p2.x);//20
-        //p1 và p2 thì x của nó vẫn ko thay đổi
-        //càng làm khẳng định struct nó chính là value type
-        //thì nó sẽ chơi những thứ liên quan tới value
-        //còn reference type là class thì nó là những thứ như là địa chỉ, vùng nhớ
+        Student s1 = new Student();
+        Console.WriteLine("Name: " + s1.name); //null nên ko in ra, chứ ko phải chuỗi rỗng nha
     }
 }
